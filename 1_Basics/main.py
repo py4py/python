@@ -1,4 +1,4 @@
-""" This examples are base on varius tutorials and books of python """
+""" This examples are based on varius tutorials and books of python """
 
 # This is one line comment in python
 ''' This is multiline
@@ -408,8 +408,8 @@ try:
 except TypeError:
     print("can't add number to string chain")
     
-def add(a: int, b: int) -> int:  # type annotataions informs what type of data sholud be in input and output
-    return a + b
+def add(a: int, b: int) -> int:  # type annotataions informs what type of data should be in input and output
+    return a + b                 # makes code more readable but may also make code more uglier
 
 # custom types
 from typing import List

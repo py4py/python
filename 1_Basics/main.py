@@ -18,7 +18,7 @@ sysinfo = getlogin()
 myuid = getpid()
 
 getlogin = "mylogin"
-from os import *  # VERY BAD PRACTICE - os has module 'uname'
+from os import *  # VERY BAD PRACTICE - os has function 'getlogin'
 print(getlogin)   # now this is function 
 
 

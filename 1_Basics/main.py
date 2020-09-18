@@ -1,4 +1,4 @@
-""" This examples are based on varius tutorials and books of python """
+""" This examples are based on various tutorials and books about python """
 
 # This is one line comment in python
 ''' This is multiline
